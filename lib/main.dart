@@ -21,7 +21,7 @@ class Todo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Colors.green.shade900,
         centerTitle: true,
         title: Text(title),
       ),
@@ -37,7 +37,7 @@ class Todo extends StatelessWidget {
                     fontSize: 25.0,
                     color: Colors.white),
               ),
-              decoration: BoxDecoration(color: Colors.deepPurpleAccent),
+              decoration: BoxDecoration(color: Colors.green.shade900),
             ),
             ListTile(
               title: Text("Settings"),
@@ -60,7 +60,7 @@ class Settings extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text("Settings"),
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Colors.green.shade900,
       ),
     );
   }
